@@ -1,0 +1,11 @@
+.cache/*
+.venv/*
+src/.cache/*
+src/__pycache__/*
+
+__pycache__/*
+*.pyc
+OAI_CONFIG_LIST
+tasks/*
+.env
+log.db
