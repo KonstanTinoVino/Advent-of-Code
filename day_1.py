@@ -1,7 +1,10 @@
 import requests
 from collections import Counter
+from dotenv import load_dotenv
+import os
 
-cookie = '' # Add your cookie here
+
+cookie = os.getenv('COOKIE')
 
 def calculate_total_distance(left_list, right_list):
     # Sort both lists
